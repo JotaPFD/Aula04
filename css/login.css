@@ -1,0 +1,34 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 70vh
+
+  }
+
+  nav {
+    -webkit-flex: 7;
+    -ms-flex: 7;
+    flex: 7;
+    background: radial-gradient(rgb(124, 13, 124),rgb(58, 13, 58));
+    padding: 20px;
+    color-scheme: white;
+    color-interpolation-filters: white;
+    color: white;
+  }
+
+  article {
+    text-align: center;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #d6d1da;
+    padding: 10px;
+    color: #5b1775;
+  }
+  
